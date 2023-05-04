@@ -19,7 +19,7 @@ r= RotaryIRQ(
     pin_num_clk=21, 
     pin_num_dt=19,
     incr=1,
-    reverse=False, 
+    reverse=True, 
     range_mode=RotaryIRQ.RANGE_UNBOUNDED)
 
 count = 1
